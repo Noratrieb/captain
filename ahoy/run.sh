@@ -10,4 +10,6 @@ exec bwrap \
     --unshare-uts \
     --unshare-cgroup \
     --as-pid-1 \
+    --uid 1 \
+    --gid 1 \
     /bin/quarterdeck

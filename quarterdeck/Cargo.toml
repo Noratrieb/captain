@@ -6,5 +6,7 @@ edition = "2021"
 [dependencies]
 eyre.workspace = true
 rustix = { version = "0.38.37", features = ["process", "thread"] }
+serde = { version = "1.0.210", features = ["derive"] }
+toml = "0.8.19"
 tracing = "0.1.40"
 tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
